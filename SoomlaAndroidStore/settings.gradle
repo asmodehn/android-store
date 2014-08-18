@@ -1,0 +1,3 @@
+rootProject.name="SoomlaAndroidStore"
+include ':SoomlaAndroidCore'
+project(':SoomlaAndroidCore').projectDir = new File('../submodules/soomla-android-core/')

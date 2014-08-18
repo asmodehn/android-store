@@ -10,7 +10,6 @@
         <option name="SOURCE_GEN_TASK_NAME" value="generateDebugSources" />
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
         <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/res" />
-        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
         <option name="APK_PATH" value="/SoomlaAndroidExample.apk" />
         <includeAssetsFromLibraries>true</includeAssetsFromLibraries>
       </configuration>
@@ -46,7 +45,7 @@
       <sourceFolder url="file://$MODULE_DIR$/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/assets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/jni" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />
@@ -63,7 +62,9 @@
     <orderEntry type="jdk" jdkName="Android API 20 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="square-otto-1.3.2" level="project" />
+    <orderEntry type="module" module-name="AndroidStoreGooglePlay" exported="" />
     <orderEntry type="module" module-name="SoomlaAndroidStore" exported="" />
+    <orderEntry type="module" module-name="SoomlaAndroidCore" exported="" />
   </component>
 </module>
 

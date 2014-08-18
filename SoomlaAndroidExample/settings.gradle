@@ -1,7 +1,9 @@
 rootProject.name="SoomlaAndroidExample"
-include(':SoomlaAndroidStoreTest')
-project(':SoomlaAndroidStoreTest').projectDir = new File('../SoomlaAndroidStoreTest/')
 include(':SoomlaAndroidStore')
 project(':SoomlaAndroidStore').projectDir = new File('../SoomlaAndroidStore/')
 include ':SoomlaAndroidCore'
 project(':SoomlaAndroidCore').projectDir = new File('../submodules/soomla-android-core/')
+include(':AndroidStoreAmazon')
+project(':AndroidStoreAmazon').projectDir = new File('../submodules/android-store-amazon/')
+include(':AndroidStoreGooglePlay')
+project(':AndroidStoreGooglePlay').projectDir = new File('../submodules/android-store-google-play/')

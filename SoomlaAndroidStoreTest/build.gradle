@@ -32,6 +32,12 @@ android {
 }
 
 dependencies {
-    compile files('libs/square-otto-1.3.2.jar')
+    compile files('libs/hamcrest-all-1.3.jar')
+    compile files('libs/json-20090211.jar')
+    compile files('libs/junit-4.8.2.jar')
+    compile files('libs/robolectric-1.2-jar-with-dependencies.jar')
+    compile files('../billing-services/google-play/AndroidStoreGooglePlay.jar')
+    compile files('../billing-services/amazon/AndroidStoreAmazon.jar')
+    compile files('../billing-services/amazon/in-app-purchasing-1.0.3.jar')
     compile project(':SoomlaAndroidStore')
 }
