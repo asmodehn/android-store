@@ -4,6 +4,8 @@
     <mapping directory="" vcs="" />
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../submodules/android-store-amazon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../submodules/android-store-google-play" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../submodules/soomla-android-core" vcs="Git" />
   </component>
 </project>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../submodules/soomla-android-core/SoomlaAndroidCore.iml" filepath="$PROJECT_DIR$/../submodules/soomla-android-core/SoomlaAndroidCore.iml" />
       <module fileurl="file://$PROJECT_DIR$/SoomlaAndroidStore.iml" filepath="$PROJECT_DIR$/SoomlaAndroidStore.iml" />
     </modules>
   </component>
